@@ -55,10 +55,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE        &kp Q                        &kp W                      &kp E     &kp R  &kp T           &kp Y     &kp U      &kp I      &kp O    &kp P     &kp BSPC
-&caps             &mod_tap_300 LEFT_CONTROL A  &mod_tap_300 LEFT_SHIFT S  &kp D     &kp F  &kp G           &kp H     &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z                        &kp X                      &kp C     &kp V  &kp B           &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
-                                                                          &kp LGUI  &tdmp  &kp LEFT_ALT    &num_pad  &kp SPACE  &kp TAB
+&kp ESCAPE        &kp Q                        &kp W                      &kp E     &kp R  &kp T                  &kp Y     &kp U      &kp I      &kp O    &kp P     &kp BSPC
+&caps             &mod_tap_300 LEFT_CONTROL A  &mod_tap_300 LEFT_SHIFT S  &kp D     &kp F  &kp G                  &kp H     &kp J      &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z                        &kp X                      &kp C     &kp V  &kp B                  &kp N     &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp GRAVE
+                                                                          &kp LGUI  &tdmp  &mt LEFT_ALT DELETE    &num_pad  &kp SPACE  &kp TAB
             >;
         };
 
