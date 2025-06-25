@@ -72,6 +72,8 @@
             label = "ALT_BK_NUM";
             #binding-cells = <0>;
             bindings = <&mt LEFT_ALT BACKSPACE>, <&mo 4>;
+
+            tapping-term-ms = <100>;
         };
     };
 
