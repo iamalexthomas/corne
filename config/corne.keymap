@@ -87,7 +87,7 @@
             quick-tap-ms = <185>;
             require-prior-idle-ms = <175>;
             hold-trigger-on-release;
-            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39>;
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
         };
     };
 
@@ -96,7 +96,7 @@
 
         jkjkj {
             bindings = <&mo 4>;
-            key-positions = <0 3>;
+            key-positions = <1 4>;
         };
     };
 
