@@ -32,7 +32,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             tapping-term-ms = <285>;
             quick-tap-ms = <185>;
             require-prior-idle-ms = <200>;
@@ -46,7 +46,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             tapping-term-ms = <285>;
             quick-tap-ms = <185>;
             require-prior-idle-ms = <200>;
