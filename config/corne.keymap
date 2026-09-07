@@ -53,6 +53,13 @@
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
         };
+
+        double_layer: double_layer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DOUBLE_LAYER";
+            #binding-cells = <0>;
+            bindings = <&lt 1 ENTER>, <&mo 3>;
+        };
     };
 
     combos {
@@ -75,10 +82,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE        &kp Q                &kp W              &kp E     &kp R  &kp T                     &kp Y        &kp U      &kp I               &kp O                 &kp P     &kp BSPC
-&caps             &hmr LEFT_CONTROL A  &hmr LEFT_SHIFT S  &kp D     &kp F  &kp G                     &kp H        &kp J      &hml RIGHT_SHIFT K  &hml RIGHT_CONTROL L  &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z                &kp X              &kp C     &kp V  &kp B                     &kp N        &kp M      &kp COMMA           &kp DOT               &kp FSLH  &kp GRAVE
-                                                          &kp LGUI  &tdmp  &mt LEFT_ALT BACKSPACE    &lt 1 ENTER  &kp SPACE  &kp TAB
+&kp ESCAPE        &kp Q                &kp W              &kp E     &kp R  &kp T                     &kp Y          &kp U      &kp I               &kp O                 &kp P     &kp BSPC
+&caps             &hmr LEFT_CONTROL A  &hmr LEFT_SHIFT S  &kp D     &kp F  &kp G                     &kp H          &kp J      &hml RIGHT_SHIFT K  &hml RIGHT_CONTROL L  &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z                &kp X              &kp C     &kp V  &kp B                     &kp N          &kp M      &kp COMMA           &kp DOT               &kp FSLH  &kp GRAVE
+                                                          &kp LGUI  &tdmp  &mt LEFT_ALT BACKSPACE    &double_layer  &kp SPACE  &kp TAB
             >;
         };
 
